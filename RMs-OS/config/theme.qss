@@ -1,0 +1,91 @@
+/* Tema RMs-98 - Estilo Windows 98 Plano 2D */
+/* Creado por Ricardo Melendes Silva */
+
+* {
+    font: 9pt "Sans Serif";
+    background-color: #c0c0c0;
+    color: #000000;
+    border: 1px solid #808080;
+}
+
+QPushButton {
+    background-color: #c0c0c0;
+    border: 2px outset #ffffff;
+    padding: 4px 8px;
+}
+
+QPushButton:pressed {
+    border: 2px inset #808080;
+}
+
+QMainWindow {
+    background-color: #c0c0c0;
+}
+
+QMenuBar {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+}
+
+QMenu {
+    background-color: #c0c0c0;
+    border: 2px solid #808080;
+}
+
+QStatusBar {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+}
+
+QToolBar {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+    spacing: 2px;
+}
+
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background-color: #ffffff;
+    border: 2px inset #808080;
+    padding: 2px;
+}
+
+QListWidget, QTreeWidget, QTableWidget {
+    background-color: #ffffff;
+    border: 2px inset #808080;
+}
+
+QScrollBar {
+    background-color: #c0c0c0;
+    border: 1px solid #808080;
+}
+
+QScrollBar::handle {
+    background-color: #c0c0c0;
+    border: 2px outset #ffffff;
+    min-height: 20px;
+}
+
+QScrollBar::add-line, QScrollBar::sub-line {
+    background-color: #c0c0c0;
+    border: 1px outset #ffffff;
+    height: 16px;
+}
+
+QDialog {
+    background-color: #c0c0c0;
+}
+
+QMessageBox {
+    background-color: #c0c0c0;
+}
+
+/* Ventanas con bordes rectos, sin redondeo */
+QFrame, QGroupBox, QTabWidget {
+    border: 2px solid #808080;
+    border-radius: 0px;
+}
+
+/* Sin sombras ni efectos 3D */
+QWidget {
+    outline: none;
+}
